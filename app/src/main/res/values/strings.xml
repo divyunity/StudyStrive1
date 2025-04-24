@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">StudyStrive</string>
+    <string name="memorization">Memorization</string>
+    <string name="testing">Testing</string>
+    <string name="history">History</string>
+    <string name="create">Create</string>
+    <string name="survey">Survey</string>
+    <string name="cards">Cards</string>
+    <string name="folder">Folder</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="apply">Apply</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+    <string name="question_title">Question title</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="add_answer">Add answer</string>
+    <string name="add_card">Add card</string>
+    <string name="side_a">Side A</string>
+    <string name="side_b">Side B</string>
+    <string name="select_side">Select the side that the user will see</string>
+    <string name="mixed">Mixed</string>
+    <string name="no_correct_answer_selected">You did not select the correct answers for this question.\nClick on the symbol before the answer to indicate that it is correct.</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="remove_from_folder">Remove from folder</string>
+    <string name="sort_alphabetically">Alphabetically</string>
+    <string name="sort_by_questions">By number of questions</string>
+    <string name="sort_by_date">By date</string>
+    <string name="points_one_correct">One correct answer is given</string>
+    <string name="points_all_correct">All correct answers are provided</string>
+</resources> 

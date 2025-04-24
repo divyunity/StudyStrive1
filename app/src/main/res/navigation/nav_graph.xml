@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/testing_fragment">
+
+    <fragment
+        android:id="@+id/memorization_fragment"
+        android:name="com.StudyStrive.SS.ui.memorization.MemorizationFragment"
+        android:label="@string/memorization">
+        <action
+            android:id="@+id/action_memorization_to_create"
+            app:destination="@id/create_fragment" />
+        <action
+            android:id="@+id/action_memorization_to_cards"
+            app:destination="@id/cards_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/testing_fragment"
+        android:name="com.StudyStrive.SS.ui.testing.TestingFragment"
+        android:label="@string/testing">
+        <action
+            android:id="@+id/action_testing_to_create"
+            app:destination="@id/create_fragment" />
+        <action
+            android:id="@+id/action_testing_to_test"
+            app:destination="@id/test_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/history_fragment"
+        android:name="com.StudyStrive.SS.ui.history.HistoryFragment"
+        android:label="@string/history" />
+
+    <fragment
+        android:id="@+id/create_fragment"
+        android:name="com.StudyStrive.SS.ui.create.CreateFragment"
+        android:label="@string/create" />
+
+    <fragment
+        android:id="@+id/test_fragment"
+        android:name="com.StudyStrive.SS.ui.test.TestFragment"
+        android:label="@string/testing" />
+
+    <fragment
+        android:id="@+id/cards_fragment"
+        android:name="com.StudyStrive.SS.ui.cards.CardsFragment"
+        android:label="@string/cards" />
+
+</navigation> 
